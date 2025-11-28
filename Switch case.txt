@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int d;
+	clrscr();
+	printf("enter a digit:");
+	scanf("%d",&d);
+	switch(d)
+	{
+	 case 1: printf("one");
+	 break;
+	 case 2: printf("two");
+	 break;
+	 case 3: printf("Three");
+	 break;
+	 case 4: printf("Four");
+	 break;
+	 case 5: printf("Five");
+	 break;
+	 default:
+	 printf("Invalid input");
+	}
+	getch();
+}
