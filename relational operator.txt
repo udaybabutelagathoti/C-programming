@@ -9,6 +9,7 @@ void main()
   printf("(a>b)=%d",(a>b));
   printf("\n(a<b)=%d",(a<b));
   printf("\n(a==b)=%d",(a==b));
-  printf("\n(a!=b)=%d",(a!=b));
+  printf("\n(a!=b)=%d",(a!=b)));
   getch();
+
 }
