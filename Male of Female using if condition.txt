@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	  char ch;
+	  clrscr();
+	  printf("enter the gender:\n");
+	  scanf("%c",&ch);
+	  if((ch=='m')||(ch=='m'))
+	  {
+	    printf("Male");
+	  }
+	  else if((ch=='f')||(ch=='f'))
+	  {
+	    printf("female");
+	  }
+	  else
+	  {
+	   printf("invalid input");
+
+	  }
+	  getch();
+}
