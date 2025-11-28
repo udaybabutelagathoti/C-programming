@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+   int a;
+   float f;
+   double d;
+   long double ld;
+   clrscr();
+   printf("int-%d",sizeof(a));
+   printf("\nfloat-%d",sizeof(f));
+   printf("\ndouble-%d",sizeof(d));
+   printf("\nlongdouble",sizeof(ld));
+   getch();
+}
