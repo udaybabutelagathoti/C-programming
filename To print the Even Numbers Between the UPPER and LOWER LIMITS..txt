@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int lower,upper;
+ clrscr();
+ printf("Enter the lower limit and upper limits:\n");
+ scanf("%d%d",&lower,&upper);
+ if(lower<=upper)
+ {
+   while(lower<=upper)
+   {
+    if(lower%2==0)
+     {
+      printf("\n%d",lower);
+      }
+       lower++;
+      }
+     }
+    else
+    {
+     printf("Invalid inputs try again");
+    }
+   getch();
+ }
