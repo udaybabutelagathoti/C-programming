@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int n,r,rev,temp;
+ clrscr();
+ printf("Enter a number:");
+ scanf("%d",&n);
+ temp=n;
+ rev=0;
+ while(n>0)
+ {
+    r=n%10;
+    rev=rev*10+r;
+    n=n/10;
+ }
+  if(temp==rev)
+   {
+     printf("palindrome");
+   }
+    else
+    {
+     printf("Not palindrome");
+    }
+    getch();
+ }
