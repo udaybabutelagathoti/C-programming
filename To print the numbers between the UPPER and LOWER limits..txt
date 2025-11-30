@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int lower,upper;
+  clrscr();
+  printf("Enter the lower limit and upper limit:");
+  scanf("%d%d",&lower,&upper);
+  while(lower<upper)
+  {
+   printf("\n%d",lower);
+   lower++;
+   }
+   printf("\n%d",upper);
+   getch();
+}
